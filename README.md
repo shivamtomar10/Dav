@@ -74,3 +74,22 @@ b. Sort this data frame on the “Birth Month” column (i.e. January to Decembe
 Categorical.
 8. Consider the following data frame containing a family name, gender of the family member and her/his monthly
 income in each record.
+Name Gender MonthlyIncome (Rs.)
+Shah Male 114000.00
+Vats Male 65000.00
+Vats Female 43150.00
+Kumar Female 69500.00
+Vats Female 155000.00
+Kumar Male 103000.00
+Shah Male 55000.00
+Shah Female 112400.00
+Kumar Female 81030.00
+Vats Male 71900.00
+Write a program in Python using Pandas to perform the following:
+a. Calculate and display familywise gross monthly income.
+b. Calculate and display the member with the highest monthly income in a family.
+c. Calculate and display monthly income of all members with income greater than Rs. 60000.00.
+d. Calculate and display the average monthly income of the female members in the Shah family.
+The students are encouraged to work on a good dataset in consultation with their faculty and apply the concepts
+learned in the course. Datasets mentioned in Ref 2, chapter 2 pg 37,38 may be consulted.The following is a sample
+of the kind of work expected in the project.
