@@ -52,23 +52,23 @@ c. Perform appropriate year-month string to dates conversion.
 d. Split a dataset to group by two columns and then sort the aggregated results within the groups.
 e. Split a given dataframe into groups with bin counts.
 7. Consider a data frame containing data about students i.e. name, gender and passing division:
-Name Birth_Month Gender Pass_Division
-0 Mudit Chauhan December M III
-1 Seema Chopra January F II
-2 Rani Gupta March F I
-3 Aditya Narayan October M I
-4 Sanjeev Sahni February M II
-5 Prakash Kumar December M III
-6 Ritu Agarwal September F I
-7 Akshay Goel August M I
-8 Meeta Kulkarni July F II
-9 Preeti Ahuja November F II
-10 Sunil Das Gupta April M III
-11 Sonali Sapre January F I
-12 Rashmi Talwar June F III
-13 Ashish Dubey May M II
-14 Kiran Sharma February F II
-15 Sameer Bansal October M I
+Name Birth_Month Gender Pass_Division<br>
+0 Mudit Chauhan December M III <br>
+1 Seema Chopra January F II<br>
+2 Rani Gupta March F I<br>
+3 Aditya Narayan October M I<br>
+4 Sanjeev Sahni February M II<br>
+5 Prakash Kumar December M III<br>
+6 Ritu Agarwal September F I<br>
+7 Akshay Goel August M I<br>
+8 Meeta Kulkarni July F II<br>
+9 Preeti Ahuja November F II<br>
+10 Sunil Das Gupta April M III<br>
+11 Sonali Sapre January F I<br>
+12 Rashmi Talwar June F III<br>
+13 Ashish Dubey May M II<br>
+14 Kiran Sharma February F II<br>
+15 Sameer Bansal October M I<br>
 a. Perform one hot encoding of the last two columns of categorical data using the get_dummies() function.
 b. Sort this data frame on the “Birth Month” column (i.e. January to December). Hint: Convert Month to
 Categorical.
