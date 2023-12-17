@@ -41,3 +41,36 @@ d. Merge two data frames and use two columns names and duration as multi-row ind
 descriptive statistics for this multi-index.
 5. Taking Iris data, plot the following with proper legend and axis labels: (Download IRIS data from:
 https://archive.ics.uci.edu/ml/datasets/iris or import it from sklearn.datasets)
+a. Plot bar chart to show the frequency of each class label in the data.
+b. Draw a scatter plot for Petal width vs sepal width.
+c. Plot density distribution for feature petal length.
+d. Use a pair plot to show pairwise bivariate distribution in the Iris Dataset.
+6. Consider any sales training/ weather forecasting dataset
+a. Compute mean of a series grouped by another series
+b. Fill an intermittent time series to replace all missing dates with values of previous non-missing date.
+c. Perform appropriate year-month string to dates conversion.
+d. Split a dataset to group by two columns and then sort the aggregated results within the groups.
+e. Split a given dataframe into groups with bin counts.
+7. Consider a data frame containing data about students i.e. name, gender and passing division:
+Name Birth_Month Gender Pass_Division
+0 Mudit Chauhan December M III
+1 Seema Chopra January F II
+2 Rani Gupta March F I
+3 Aditya Narayan October M I
+4 Sanjeev Sahni February M II
+5 Prakash Kumar December M III
+6 Ritu Agarwal September F I
+7 Akshay Goel August M I
+8 Meeta Kulkarni July F II
+9 Preeti Ahuja November F II
+10 Sunil Das Gupta April M III
+11 Sonali Sapre January F I
+12 Rashmi Talwar June F III
+13 Ashish Dubey May M II
+14 Kiran Sharma February F II
+15 Sameer Bansal October M I
+a. Perform one hot encoding of the last two columns of categorical data using the get_dummies() function.
+b. Sort this data frame on the “Birth Month” column (i.e. January to December). Hint: Convert Month to
+Categorical.
+8. Consider the following data frame containing a family name, gender of the family member and her/his monthly
+income in each record.
